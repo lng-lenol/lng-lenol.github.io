@@ -1,18 +1,438 @@
----
-layout: default
----
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta Tag -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Регистратор - юридический центр</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="css/YTPlayer.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css?ver=1.40">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css?ver=1.1">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic" rel="stylesheet">
+		<!-- Color Switcher -->
+		<link href="switcher/switcher.css" rel="stylesheet">
+		<link href="switcher/style1.css" rel="stylesheet" id="colors">
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.png">
+	</head>
+	<body data-spy="scroll" data-target=".navbar-fixed-top">
+		<!-- Start Preloader Area-->
+		<div class="preloader-area">
+			<div class="sk-cube-grid">
+				<div class="sk-cube sk-cube1"></div>
+				<div class="sk-cube sk-cube2"></div>
+				<div class="sk-cube sk-cube3"></div>
+				<div class="sk-cube sk-cube4"></div>
+				<div class="sk-cube sk-cube5"></div>
+				<div class="sk-cube sk-cube6"></div>
+				<div class="sk-cube sk-cube7"></div>
+				<div class="sk-cube sk-cube8"></div>
+				<div class="sk-cube sk-cube9"></div>
+			</div>
+		</div>
+		<!--/End Preloader Area-->
+		<!-- Navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
+					<span class="sr-only">Меню</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="120"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="main-nav-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="smoth-scroll" href="#about-us">Юридическое Обслуживание</a></li>
+						<li><a class="smoth-scroll" href="#our-pricing">Бухгалтерское обслуживание</a></li>
+						<li><a class="smoth-scroll" href="#contacts">Контакты</a></li>
+					</ul>
+				</div>
+				<div>
+					<a href="tel:88432103083" class="navbar-tel">8(843)2103-083</a>
+				</div>
+			</div>
+		</nav>
+		<!-- /End Navbar -->
+		<!-- Start Header -->
+		<div id="home" class="welcome-slider-area">
+			<div class="slider-active owl-carousel">
+				<div class="single-slider" style="background-image:url(images/bg-kjpg.jpg);">
+					<div class="slider-title">
+						<div class="table-cell">
+						    <img src="images/logo.png" alt="logo" width="380">
+						    <p class="header-slogan">Мы с радостью поможем Вам в решении специфических задач<br>в рамках своих компетенций</p>
+							<div class="button-group slider-animation-up">
+								<a class="btn btn-normal-border" href="#contacts">Оставить заявку</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/End Header -->		
+		<!-- Start Our Service Area -->
+		<section id="special" class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title wow fadeInDown">
+							<h2>НАШИ <span > УСЛУГИ</span ></h2>
+							<div class="border-line">
+								<span class="border-box"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="special-item owl-carousel">
+							<div class="special-single-content text-center">
+								<i class="fa fa-address-book-o" aria-hidden="true"></i>
+								<h3>Юридическое<br>обслуживание</h3>
+								<a class="btn-service" href="#about-us"> Подробнее</a>
+							</div>
+							<div class="special-single-content text-center">
+								<i class="fa fa-edit" aria-hidden="true"></i>
+								<h3>Справка о состоянии<br>контрагента</h3>
+								<a class="btn-service" href="#contr-us"> Подробнее</a>
+							</div>
+							<div class="special-single-content text-center">
+								<i class="fa fa-calculator" aria-hidden="true"></i>
+								<h3>Бухгалтерское<br>обслуживание</h3>
+								<a class="btn-service" href="#our-pricing"> Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /End Our Service Area -->
+		<!-- Start About us Area -->
+		<section id="about-us" class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="about-content">
+							<h2>Юридическое <span > обслуживание</span></h2>
+							<p>Наша компания предлагает Вашему бизнесу юридические услуги  по государственной регистрации, перерегистрации, ликвидации предприятий и ИП.</p>
+							<p>
+								<ul>
+									<li>
+									    <a data-fancybox data-src="#modal-services1" href="javascript:;" >Регистрация ООО, ЗАО, ОАО, НКО, СКП, ПКП (Сельскохозяйственный кооператив, потребительский кооператив)</a>
+									    <div id="modal-services1" style="display:none">
+									        <p><strong><u>Регистрация ООО</u></strong></p>
+                                            <ul>
+                                            <li>Для регистрации ООО&nbsp; нам понадобится:</li>
+                                            <li>Паспорт и ИНН директора и всех учредителей</li>
+                                            <li>Название организации</li>
+                                            <li>Система налогообложения (ОСН, УСН 7%, УСН 6%)</li>
+                                            <li>Виды деятельности ОКВЭД&nbsp; (чем планируете заниматься)</li>
+                                            <li>Гарантийное письмо на юридический адрес</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services2" href="javascript:;" >Регистрация ИП</a>
+									    <div id="modal-services2" style="display:none">
+									        <p><strong><u>Регистрация ИП</u></strong></p>
+                                            <ul>
+                                            <li>Паспорт и ИНН директора</li>
+                                            <li>Почтовый индекс по адресу регистрации</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services3" href="javascript:;" >Подготовка документов по внесению изменений в учредительные документы</a>
+									    <div id="modal-services3" style="display:none">
+									        <p><strong><u>Внесение изменений в учредительные документы и ЕГРЮЛ</u></strong></p>
+                                            <ul>
+                                            <li>Учредительные документы (ОГРН, ИНН, Устав общества, решение о назначении Директора и т.д.)</li>
+                                            <li>Ввод/выход участника общества</li>
+                                            <li>Смена директора (Генерального директора)</li>
+                                            <li>Смена или дополнение кодов ОКВЭД</li>
+                                            <li>Исправление ошибок ЕГРЮЛ</li>
+                                            <li>Смена наименования Юридического &nbsp;лица</li>
+                                            <li>Смена адреса нахождения юридического лица</li>
+                                            <li>Иные изменения в зависимости от Ваших потребностей</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services4" href="javascript:;" >Ликвидация ООО, ЗАО, ОАО</a>
+									    <div id="modal-services4" style="display:none">
+									        <p><strong><u>Ликвидация ООО, ЗАО, ОАО</u></strong></p>
+                                            <ul>
+                                            <li>Для выбора наиболее оптимального варианта ЛИКВИДАЦИИ Общества и уточнения стоимости услуг- рекомендуем проконсультироваться с нашим квалифицированным специалистом!</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services5" href="javascript:;" >Альтернативная ликвидация</a>
+									    <div id="modal-services5" style="display:none">
+									        <p><strong><u>Альтернативная ликвидация</u></strong></p>
+                                            <ul>
+                                            <li>Подготовка и внесение изменений в учредительные документы:</li>
+                                            <li>Смена директора</li>
+                                            <li>Смена участника общества</li>
+                                            <li>Смена юридического адреса</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services6" href="javascript:;" >Банкротство предприятий</a>
+									    <div id="modal-services6" style="display:none">
+									        <p><strong><u>Банкротство предприятий</u></strong></p>
+                                            <p><strong>Банкротство - тот самый действенный инструмент на сегодняшний день, с помощью которого защитить свои имущественные интересы могут как сами должники, так и их кредиторы.</strong></p>
+                                            <p><strong>Перечень документов :</strong></p>
+                                            <ul>
+                                            <li>Копия бух.баланса за последний отчетный период;</li>
+                                            <li>Перечень контрагентов перед которыми есть задолженности</li>
+                                            <li>Были ли договоры лизинга, если были - то их копии</li>
+                                            <li>Находилось ли на балансе движимое/недвижимое имущество? Есть ли сейчас? Если было, но сейчас нет, по какому договору и когда передали. Копии договоров.</li>
+                                            <li>Есть ли на балансе залоговое имущество?</li>
+                                            <li>Имеются ли задолженности по зарплатам?</li>
+                                            <li>Копии учредительных документов</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services7" href="javascript:;" >Юридические адреса</a>
+									    <div id="modal-services7" style="display:none">
+									        <p><strong><u>Юридические адреса</u></strong></p>
+                                            <ul>
+                                            <li>Список документов&nbsp; предоставления юридического адреса:</li>
+                                            <li>Гарантийное письмо (для регистрации)</li>
+                                            <li>Подготовка учредительных документов</li>
+                                            <li>Договор аренды нежилого помещения</li>
+                                            <li>Акт-приема передачи помещения</li>
+                                            <li>Копия свидетельства&nbsp; права собственности на нежилое помещение организации</li>
+                                            <li>Почтовое обслуживание адреса</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services8" href="javascript:;" >Публикации в журнале Вестник государственной регистрации</a>
+									    <div id="modal-services8" style="display:none">
+									        <p><strong><u>Публикации в журнале Вестник государственной регистрации</u></strong></p>
+                                            <ul>
+                                            <li>Публикация сообщения о ликвидации юридического лица в журнале "Вестник государственной регистрации"</li>
+                                            <li>Публикация сообщения о реорганизации юридического лица в журнале "Вестник государственной регистрации"</li>
+                                            <li>Публикация сообщения об Уменьшении Уставного капитала юридического лица в журнале "Вестник государственной регистрации" </li>
+                                            <li>Публикация сообщения о приобретении Юридическим лицом более 20% Уставного капитала другого юридического лица в журнале "Вестник государственной регистрации"</li>
+                                            <li>Публикация уведомления о снижении стоимости чистых активов (СЧА) Акционерных Обществ (ОАО, ЗАО) в журнале "Вестник государственной регистрации"</li>
+                                            <li>Публикация сообщения об Ошибках, допущенных в ранее опубликованных сообщениях в журнале "Вестник государственной регистрации", а также об изменениях в уже опубликованных сообщениях</li>
+                                            <li>Публикация прочих сообщений Юридических лиц, которые они, согласно действующему законодательству, обязаны публиковать в журнале "Вестник государственной регистрации"</li>
+                                            <li>•	Публикация Бухгалтерской отчетности (Бухгалтерских балансов (Форма № 1), Отчета о прибылях и убытках (форма № 2) и пр.), которую юридические лица обязаны опубликовывать в Средствах Массовой Информации (СМИ).</li>
+                                            </ul>
+									    </div>
+									</li>
+									<li>
+									    <a data-fancybox data-src="#modal-services9" href="javascript:;" >Готовые фирмы на продажу</a>
+									    <div id="modal-services9" style="display:none">
+									        <p><strong><u>Продажа готовых фирм</u></strong></p>
+                                            <p>Для выбора наиболее оптимального варианта приобретения  готовой фирмы и уточнения стоимости услуг- рекомендуем проконсультироваться с нашим квалифицированным специалистом!</p>
+									    </div>
+									</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="about-images wow fadeIn">
+							<a href="#"><img src="images/open_book.jpg" alt="about misti"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /End About us Area -->
+		<section id="contr-us" class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-push-5">
+						<div class="about-content">
+							<h2>Справка о состоянии <span > контрагента</span></h2>
+							<p>
+								<ul>
+									<li>Оценка контрагента, поиск и анализ связей, арбитражные дела, мониторинг изменений, подбор контрагентов</li>
+									<li>Изготовление ЭЦП</li>
+									<li>Помощь в открытии расчетного счета</li>
+									<li>Составление договоров</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-5 col-md-pull-7">
+						<div class="about-images wow fadeIn">
+							<a href="#"><img src="images/docs.jpg" alt="about misti"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- our pricing Area -->
+		<section id="our-pricing" class="pricing section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title wow fadeInDown">
+							<h2>Бухгалтерское <span > обслуживание</span ></h2>
+							<p>Наша компания предлагает широкий перечень бухгалтерских услуг: составление и сдача отчетности, ведение кадрового, налогового и бухгалтерского учета, расчет заработной платы.<br><b>Почему это выгодно:</b><br>Бухгалтерское сопровождение обходиться дешевле, чем содержание штатного бухгалтера. Вам не потребуется арендовать дополнительную площадь под его кабинет, оборудовать рабочее место, оплачивать обучение, платить зарплату и налоги на нее.</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+							<div class="border-line">
+								<span class="border-box"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="single-pricing-box wow fadeIn" data-wow-delay="0.1s">
+							<h4>Отчётность</h4>
+							<img src="images/price01.jpg" alt="">
+						</div>
+						<div class="single-pricing-box wow fadeIn" data-wow-delay="0.1s" style="margin-top:40px">
+							<h4>Прайс-лист на бухгалтерские услуги</h4>
+							<img src="images/price02.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /End Our Pricing Area -->
+		<!-- Footer top Area -->
+		<section id="contacts" class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title wow fadeInDown">
+							<h2><span >Контакты</span ></h2>
+							<div class="border-line">
+								<span class="border-box"></span>
+							</div>
+							<p>Контакты и режим работы</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-single-contact">
+							<div class="address-single-contact">
+								<h6>Адрес:</h6>
+								<p>г. Казань, ул. Галиаскара Камала, 7</p>
+								<p>С 9.00 до 17.00. Суббота и воскресенье - выходные</p>
+							</div>
+							<div class="address-single-contact">
+								<h6>Телефон:</h6>
+								<p>8 (843) 2103-083</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="footer-single-contact">
+							<div class="contact-form">
+								<form id="ajax_form">
+									<div class="row">
+										<div class="form-group col-md-6">
+											<input type="text" name="fname" class="form-control pl-icon" id="first-name" placeholder="&#xf2c0; Ваше имя" required />
+										</div>
+										<div class="form-group col-md-6">
+											<input type="text" name="phone" class="form-control pl-icon" id="phone" placeholder="&#xf095; Ваш телефон" required />
+										</div>
+										<div class="form-group col-md-12">
+											<input type="email" name="email" class="form-control pl-icon" id="email" placeholder="&#xf003; Ваш email" required />
+										</div>
+										<div class="form-group col-md-12">
+											<textarea rows="3" name="message" class="form-control pl-icon" id="description" placeholder="&#xf0e5; Ваше сообщение" required ></textarea>
+										</div>
+										<div class="col-md-12">
+											<div class="actions wow fadeIn" data-wow-delay=".4s">
+												<input type="submit" value="Отправить" name="submit" id="submitButton" class="btn btn-lg contact-btn" title="Отправить">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /End Footer top Area -->
+		<!-- footer Area -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-buttom">
+							<p>Регистратор - Юридический центр,2018. Все права защищены.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div id="result" style="display:none"></div>
+		<!-- /End Footer Area -->
+		<!-- jQuery js -->
+		<script src="js/jquery.min.js"></script>
+		<!-- BootStrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- OwlCarousel Js  -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Wow js -->
+		<script src="js/wow.min.js"></script>
+		<!-- Parallas Js-->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Smooth Scroll Js -->
+		<script src="js/SmoothScroll.js"></script>
+		<!-- Skill Easypiechart,Inview js -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<script src="js/jquery.inview.min.js"></script>
+		<!-- Counterup, Waypoints Js -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Magnific Popup Js -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Mixitup Js -->
+		<script src="js/jquery.mixitup.js"></script>
+		<!-- YTPlayer Js -->
+		<script src="js/jquery.mb.YTPlayer.min.js"></script>
+		<!-- Color Switcher js -->
+		<script src="switcher/switcher.js"></script>
+		<!-- Main Custom Js -->
+		<script src="js/custom.js"></script>
+		<script>
+            $(function(){
+            	$('#ajax_form').submit(function(e){
+            		e.preventDefault();
+            		$.ajax({
+            			type: 'post',
+            			url: 'mail.php',
+            			data: $(this).serialize(),
+            			success: function(data){
+            				$('#result').html(data).addClass("active");
+            			}   
+            		});
+            	});
+            });
+		</script>
+		<script src="js/jquery.fancybox.min.js"></script> 
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	</body>
+</html>
